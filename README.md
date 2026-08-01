@@ -32,6 +32,7 @@ You don't need to manually install or configure MySQL on your host machine. Ever
    git clone [https://github.com/Sakhavat00/qa-ecommerce-db-testing.git](https://github.com/Sakhavat00/qa-ecommerce-db-testing.git)
    cd qa-ecommerce-db-testing
 
-   Spin up the Database Environment:Bashdocker-compose up -d
-Connect via MySQL Workbench:Host: 127.0.0.1Port: 3306Username: rootPassword: my-secret-pwStop the Container:Bashdocker-compose down
-🧪 QA Scenarios & Test CoverageTest Case #Testing TypeTest ScenarioExpected OutcomeStatusTC-DB-01PositiveInsert valid customer & order recordsData is saved successfully with auto-incremented IDsPASS ✅TC-DB-02Negative / SecurityRegister a new customer with an existing emailDatabase blocks the action (UNIQUE constraint violation)PASS ✅TC-DB-03Negative / IntegrityCreate an order with a non-existent customer_idForeign Key fails (FK constraint violation), preventing orphan dataPASS ✅TC-DB-04Data IntegrityDelete a customer record who has active ordersCustomer and all associated orders are deleted automatically (ON DELETE CASCADE)
+
+
+
+<img width="1455" height="166" alt="image" src="https://github.com/user-attachments/assets/6a1e48f0-23bf-4551-b7a6-db7b28a1d96f" />
