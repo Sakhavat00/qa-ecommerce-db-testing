@@ -29,7 +29,7 @@ You don't need to manually install or configure MySQL on your host machine. Ever
 ### Execution Steps
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/Sakhavat00/qa-ecommerce-db-testing.git](https://github.com/Sakhavat00/qa-ecommerce-db-testing.git)
+   git clone https://github.com/Sakhavat00/qa-ecommerce-db-testing.git
    cd qa-ecommerce-db-testing
 
 
