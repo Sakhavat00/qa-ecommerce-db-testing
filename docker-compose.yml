@@ -1,0 +1,14 @@
+YAML
+version: '3.8'
+services:
+  db:
+    image: mysql:latest
+    container_name: qa-mysql-db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: my-secret-pw
+      MYSQL_DATABASE: ecommerce_qa
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
