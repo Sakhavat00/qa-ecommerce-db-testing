@@ -1,5 +1,5 @@
-YAML
 version: '3.8'
+
 services:
   db:
     image: mysql:latest
