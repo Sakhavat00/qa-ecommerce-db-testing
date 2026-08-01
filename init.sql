@@ -17,9 +17,9 @@ CREATE TABLE IF NOT EXISTS orders (
     FOREIGN KEY (customer_id) REFERENCES customers(customer_id) ON DELETE CASCADE
 );
 INSERT INTO customers (first_name, last_name, email, status) VALUES 
-('Anar', 'Məmmədov', 'anar@gmail.com', 'active'),
-('Leyla', 'Əliyeva', 'leyla@gmail.com', 'active'),
-('Rəşad', 'Həsənov', 'resad@gmail.com', 'banned');
+('Anar', 'Mammadov', 'anar@gmail.com', 'active'),
+('Leyla', 'Aliyeva', 'leyla@gmail.com', 'active'),
+('Rashad', 'Oruc', 'resad@gmail.com', 'banned');
 
 INSERT INTO orders (customer_id, order_amount, order_status) VALUES 
 (1, 150.50, 'completed'),
