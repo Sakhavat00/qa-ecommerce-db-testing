@@ -36,3 +36,24 @@ You don't need to manually install or configure MySQL on your host machine. Ever
 
 
 <img width="1455" height="166" alt="image" src="https://github.com/user-attachments/assets/6a1e48f0-23bf-4551-b7a6-db7b28a1d96f" />
+
+
+
+
+## Spin up the Database Environment:
+
+docker-compose up -d
+Connect via MySQL Workbench:
+
+Host: 127.0.0.1
+
+Port: 3306
+
+Username: root
+
+Password: my-secret-pw
+
+Stop the Container:
+
+docker-compose down
+
